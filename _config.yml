@@ -6,16 +6,19 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
+title: "AllPro-Graphics & Printing"
+email: allpro@apgprinting.com
+address: "10572 Calle Lee #120, Los Alamitos, CA 90720"
+description: >
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
+
+map_source: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.130878967886!2d-118.05890732037452!3d33.80893543805467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd2e8c555bb80f%3A0x2d23719e6e491419!2s10572+Calle+Lee+%23120%2C+Los+Alamitos%2C+CA+90720!5e0!3m2!1sen!2sus!4v1449201558156"
+
+
 baseurl: "/apgprinting-mvp" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 markdown: kramdown
