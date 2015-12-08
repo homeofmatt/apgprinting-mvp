@@ -29,6 +29,8 @@
             padding: 8px;
             font-size: 14px;
             font-family: "museo-slab", "Helvetica", sans-serif;
+
+            @include media-query($on-laptop) { width: 95%; }
         }
 
         select.contact-form {
@@ -36,13 +38,16 @@
             outline: 1px solid #CCC;
             background-color: white;
             height: 34px;
+
+            @include media-query($on-laptop) { width: 95%; }
         }
 
         textarea.contact-form {
             display: block;
-            width: 100%;
             resize: none;
             overflow: auto;
+
+            @include media-query($on-laptop) { width: 95%; }
         }
     }
 }
@@ -87,6 +92,8 @@
                 border-top: 1px solid $grey-color;
                 border-bottom: 1px solid $grey-color;
             }
+
+            @include media-query($on-laptop) { width: 95%; }
         }
 
         select.quotes-form {
@@ -94,17 +101,16 @@
             outline: 1px solid #CCC;
             background-color: white;
             height: 34px;
+
+            @include media-query($on-laptop) { width: 95%; }
         }
 
         textarea.quotes-form {
             display: block;
-            width: 100%;
             resize: none;
             overflow: auto;
-        }
 
-        .quotes-radio-box {
-
+            @include media-query($on-laptop) { width: 95%; }
         }
     }
 }
