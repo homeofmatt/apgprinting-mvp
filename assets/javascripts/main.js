@@ -8,4 +8,9 @@ $(document).ready(function() {
     pagination: true,
     paginationNumbers: false
   });
+
+  $("#date-needed").datepicker({
+    minDate: 0,
+    dateFormat: "DD, MM d, yy"
+  });
 });
