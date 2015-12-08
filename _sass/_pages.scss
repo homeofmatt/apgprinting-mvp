@@ -1,34 +1,4 @@
 /**
- * General Page content
- */
-.page-content {
-    padding: $spacing-unit 0;
-}
-
-.page-heading {
-    font-size: 20px;
-}
-
-.post-list {
-    margin-left: 0;
-    list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
-}
-
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
-}
-
-.post-link {
-    display: block;
-    font-size: 24px;
-}
-
-/**
  * Contact Us
  */
 .contact-form{
@@ -38,7 +8,7 @@
         border-radius: 12px;
         border: none;
         width: 50%;
-        // background-color: #ea8402;
+        background-color: $allpro-red;
         font-size: 12px;
         letter-spacing: 1px;
         color: #ffffff;
@@ -73,6 +43,68 @@
             width: 100%;
             resize: none;
             overflow: auto;
+        }
+    }
+}
+
+/**
+ * Quotes
+ */
+.quotes-form{
+    input[type="submit"] {
+        display: block;
+        padding: 5px 10px;
+        border-radius: 12px;
+        border: none;
+        width: 50%;
+        background-color: $allpro-red;
+        font-size: 12px;
+        letter-spacing: 1px;
+        color: #ffffff;
+        cursor: pointer;
+        margin: 0 auto;
+    }
+
+    .quotes-field {
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .quotes-form {
+            width: 100%;
+            border: 1px solid $grey-color;
+            border-radius: 2px;
+            padding: 8px;
+            font-size: 14px;
+            font-family: "museo-slab", "Helvetica", sans-serif;
+
+            &.quotes-radio {
+                width: auto;
+                display: inline-block;
+                padding: 10px;
+                border: 0;
+                border-top: 1px solid $grey-color;
+                border-bottom: 1px solid $grey-color;
+            }
+        }
+
+        select.quotes-form {
+            border: 0;
+            outline: 1px solid #CCC;
+            background-color: white;
+            height: 34px;
+        }
+
+        textarea.quotes-form {
+            display: block;
+            width: 100%;
+            resize: none;
+            overflow: auto;
+        }
+
+        .quotes-radio-box {
+
         }
     }
 }
