@@ -4,7 +4,6 @@ $(document).ready(function() {
     stopOnHover: true,
     navigation: false,
     autoPlay: true,
-    autoHeight: true,
     pagination: true,
     paginationNumbers: false
   });

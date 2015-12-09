@@ -1,4 +1,25 @@
 /**
+ * Home
+ */
+ .home {
+    width: 100%;
+
+    .section-title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .payments {
+        text-align: center;
+        padding: 15px;
+        border-top: 1px solid $grey-color;
+        border-radius: 2px;
+        font-size: 14px;
+        font-family: "museo-slab", "Helvetica", sans-serif;
+    }
+}
+
+/**
  * Contact Us
  */
 .contact-form{
